@@ -186,6 +186,8 @@ const Docker = {
                 --env UNITY_EMAIL \
                 --env UNITY_PASSWORD \
                 --env UNITY_SERIAL \
+                --env USERNAME_SECONDLIFE \
+                --env GRIDFRIENDLYNAME_SECONDLIFE \
                 --env UNITY_VERSION="${editorVersion}" \
                 --env PROJECT_PATH="${projectPath}" \
                 --env CUSTOM_PARAMETERS="${customParameters}" \
@@ -240,6 +242,8 @@ const Docker = {
                 --env UNITY_EMAIL \
                 --env UNITY_PASSWORD \
                 --env UNITY_SERIAL \
+                --env USERNAME_SECONDLIFE \
+                --env GRIDFRIENDLYNAME_SECONDLIFE \
                 --env UNITY_VERSION="${editorVersion}" \
                 --env PROJECT_PATH="${projectPath}" \
                 --env CUSTOM_PARAMETERS="${customParameters}" \
