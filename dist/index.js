@@ -187,6 +187,7 @@ const Docker = {
                 --env UNITY_PASSWORD \
                 --env UNITY_SERIAL \
                 --env USERNAME_SECONDLIFE \
+                --env PASSWORD_SECONDLIFE \
                 --env GRIDFRIENDLYNAME_SECONDLIFE \
                 --env UNITY_VERSION="${editorVersion}" \
                 --env PROJECT_PATH="${projectPath}" \
@@ -243,6 +244,7 @@ const Docker = {
                 --env UNITY_PASSWORD \
                 --env UNITY_SERIAL \
                 --env USERNAME_SECONDLIFE \
+                --env PASSWORD_SECONDLIFE \
                 --env GRIDFRIENDLYNAME_SECONDLIFE \
                 --env UNITY_VERSION="${editorVersion}" \
                 --env PROJECT_PATH="${projectPath}" \
